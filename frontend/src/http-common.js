@@ -1,7 +1,8 @@
 import axios from "axios";
+const SERVER_URL = process.env.SERVER_URL || 'http://172.17.0.201:9000' ;
 
 export default axios.create({
-    baseURL: "http://localhost:9000/",
+    baseURL: SERVER_URL,
     headers: {
         'Access-Control-Allow-Origin': '*',
         "Content-type": "application/json",

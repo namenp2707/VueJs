@@ -13,7 +13,7 @@ import com.cpe.backend.Carname.Repository.BrandRepository;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://172.17.0.200:8080")
 @RestController
 public class BrandController {
 

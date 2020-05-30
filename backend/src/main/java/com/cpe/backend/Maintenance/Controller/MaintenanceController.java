@@ -30,7 +30,7 @@ import java.net.URLDecoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import java.time.LocalDateTime;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://172.17.0.200:8080")
 @RestController
 public class MaintenanceController {
     @Autowired
